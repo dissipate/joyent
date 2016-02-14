@@ -31,3 +31,4 @@ RUN npm install -g json
 RUN ln -s /usr/bin/nodejs /usr/bin/node 
 
 RUN pip install docker-compose
+RUN pip install docker-py
